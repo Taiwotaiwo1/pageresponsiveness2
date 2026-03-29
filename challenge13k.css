@@ -1,0 +1,266 @@
+html body{
+  background-color: rgb(225, 245, 245);
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  margin-right: 10px;
+  margin-right:10px; 
+}
+p{
+  /* font-size: 1rem; */
+}
+img{
+  width: 8px;
+}
+
+/* NAVBAR */
+.left{
+  margin-top: 0;
+}
+.right{
+  margin-top: 0;
+
+}
+label{
+  font-size: 12px;
+}
+/* utilities */
+.form1{
+  margin: 0 auto;
+  padding:0;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  box-shadow: 5px 3px 3px rgb(0, 0, 0, 0.2);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius:5px;
+}
+.heading{
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+}
+
+.term-rate{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1px;
+}
+.container-1{
+  position: relative;
+  bottom: 8.3px;
+}
+
+/* MORTIGAGE AMOUNT */
+.amount-btn{
+  display: flex;
+  width: 93%;
+}
+.dollar{
+  display: flex;
+  align-self: flex-start;
+  height: 18px;
+  width: 15px;
+  margin-left: -7px;
+  margin-top: -2px;
+  margin-bottom: -2px;
+  padding-top: 2px;
+  padding-left: 3px;
+  background-color: aqua;
+}
+.figure{
+  padding-left: 3.9em;
+}
+
+/* MORTIGAGE TERM */
+.mortigage-term-btn{
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+}
+
+.mortigage-year{
+   background-color: aqua;
+   margin-right: -7.3px;
+   padding-left: 4px;
+   padding-right: 4px;
+   margin-top: -2px;
+   margin-bottom: -2px;
+   font-size: 14px;
+}
+/* INTEREST RATE*/
+.interest-rate-btn{
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.interest-rate-percent{
+background-color: aqua;
+padding-left: 3px;
+padding-right:4px;
+margin-right: -7.2px;
+margin-top: -2px;
+margin-bottom: -2px;
+}
+
+/* MORTIGAGE-TYPE */
+.mortigage-type-btn{
+  display: flex;
+  width: 93%;
+  height: 25px;
+  flex-direction: row;
+  background-color: rgb(235, 235, 188);
+  border-style: none;
+  border: 1px solid rgb(221, 221, 124);
+}
+.circle{
+border: 1px solid yellow;
+color: yellow;
+height: 3px;
+width: 3px;
+padding: 1px 1px; 
+border-radius: 50%;
+margin-top: 9px;
+background-color: rgb(141, 141, 9);
+}
+
+.repayment{
+margin-left: 5px;
+font-size: 8px;
+font-weight: 700; 
+}
+
+.interest-btn{
+  display: flex;
+  width: 93%;
+  height: 25px;
+  flex-direction: row;
+  background-color: white;
+  border-style: none;
+  margin-top: 3px;
+  border: 1px solid rgb(221, 221, 124);
+}
+
+.circle-2{
+border: 1px solid black;
+height: 3px;
+width: 3px;
+padding: 1px 1px; 
+border-radius: 50%;
+margin-top: 9px;
+}
+.interest{
+margin-left: 5px;
+font-size: 8px;
+font-weight: 700;
+}
+
+.calculator-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 25px;
+  flex-direction: row;
+  background-color: white;
+  border-style: none;
+  margin-top: 3px;
+  background-color: rgb(223, 223, 32);
+  border: 1px solid rgb(221, 221, 124);
+  border-radius: 13px;
+
+}
+
+.calculator{
+
+}
+.calculate{
+margin-left: 5px;
+font-size: 8px;
+font-weight: 700;
+
+}
+
+/* FORM-2 */
+
+.cont-2{
+  min-height: 100%;
+  background-color: rgb(45, 45, 83);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.result{
+  color: white;
+  padding-top: 13px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.details{
+  color: aliceblue;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 5px
+}
+
+.box{
+  background-color: black;
+  width: 90%;
+  border-radius: 3px;
+  border-top: 1.5px solid yellow;
+  position: relative;
+  bottom: 5px;
+  left: 20px;
+
+}
+.euro{
+  color: yellow;
+  margin-left: 8px;
+  margin-top: 0;
+}
+
+.line{
+  border-bottom: 1px solid white;
+  background-color: black;
+  height: 1px;
+  width: 90%;
+  margin-left: 10px;
+}
+.repay{
+  color: white;
+  font-size: 12px;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.euro-2{
+  color: white;
+  margin-top: 0;
+  margin-left: 8px;
+}
+
+.grid{ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 750px){.box{
+   position: relative;
+  left: 15px;
+}} 
+@media (max-width: 450px) {.left, .right, label, .figure, .dollar, .details, .result, .euro, .euro-2{
+  font-size: 9px;
+}}
+@media (max-width: 450px) {.box{
+  position: relative;
+  left: 10px;
+}}
+
+@media (max-width: 450px){.result, .details{
+  margin-left: 10px;
+}}
+
+
+
+
+
